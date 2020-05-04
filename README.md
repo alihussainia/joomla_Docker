@@ -50,15 +50,14 @@ Under **IIEC-RISE 1.0** Campaign I learnt about Docker under the guidance of Vim
    
 ## 6. Docker-compose up:
   * As per the below mentioned picture use `docker-compose up -d` to complete the setup.
-![Docker Compose Up](Screenshots/Docker_compose_up.png)
+![Docker Compose Up](Screenshots/docker_compose_up.png)
 ## 7. Joomla Started:
   * Got to your browser and type `localhost:80` and done you will be able to see your Joomla WebApp. Now one small suggestion that you can use directly `localhost` without typing the port cause in http apache server our browser by default use the port 80. But if you want to use any other port then you have to mention it in your docker-compose file.
 ![Joomla Web Page](Screenshots/joomla_webpage.png)
-## 8. Docker-compose start stop:
-   * After using docker compose up now in one click you can stop your whole setup. Just use `docker-compose stop`. Again you want to start the service use `docker compose start`. 
+## 8. Docker-compose start stop and down:
+   * After using docker compose up now in one click you can stop your whole setup. Just use `docker-compose stop`. Again you want to start the service use `docker compose start` and you can easily stop the containers using `docker compose down` command.
 ![Docker-compose-start-stop](Screenshots/joomla_stop.png)
-## 9. Docker-compose down:
-  * You can easily stop the containers using `docker compose down` command.
+
 ## Troubleshooting and Solves:
   #### There might be a possibility that you may face some troubleshoots. As we know in these kinds of automations are depended on many things and suppose any of the dependency might not accurate. Here are some suggestions:
    * After you restart your base OS you will see problem cause previous time you stopped your firewall and after system restart firewall will start again. So before again starting docker-compose you should stop firewall. You can check the status of your firewall using `systemctl status firewalld`. If you want to permanently disable firewall you can use `systemctl disable firewalld`.
@@ -68,5 +67,30 @@ Under **IIEC-RISE 1.0** Campaign I learnt about Docker under the guidance of Vim
    ### This whole setup is done in local machine. But exactly same thing we can do in cloud to setup a Joomla WebApp. We can use many cloud services like Google Cloud, Digital Ocean etc. for this.
    
 ## References:
-  ### I learnt this technology totall free of cost in YouTube. What I learnt are mentioned in the below screenshots.
-  Here is the YouTube playlist : https://www.youtube.com/playlist?list=PLAi9X1uG6jZ30QGz7FZ55A27jPeY8EwkE
+  
+[YouTube playlist](https://www.youtube.com/playlist?list=PLAi9X1uG6jZ30QGz7FZ55A27jPeY8EwkE)
+[raktim00](https://github.com/raktim00/IIEC_Docker_Project_on_Joomla)
+[sql yum repo](https://dev.mysql.com/downloads/repo/yum/)
+[github issues](https://github.com/wodby/docker4drupal/issues/211)
+[vim cmds](https://linuxize.com/post/how-to-save-file-in-vim-quit-editor/)
+
+  
+## Attendance:
+
+#### Session1
+[](Screenshots/1.png)
+
+#### Session2
+[](Screenshots/1.png)
+
+#### Session3
+[](Screenshots/1.png)
+
+#### Session4
+[](Screenshots/1.png)
+
+#### Session5
+[Session 5](Screenshots/1.png)
+
+#### Session6
+[Session 6](Screenshots/1.png)
