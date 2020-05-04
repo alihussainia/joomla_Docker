@@ -69,25 +69,29 @@ Under **IIEC-RISE 1.0** Campaign I learnt about Docker under the guidance of Vim
 ## References:
   
 [YouTube playlist](https://www.youtube.com/playlist?list=PLAi9X1uG6jZ30QGz7FZ55A27jPeY8EwkE)
+<br/>
 [raktim00](https://github.com/raktim00/IIEC_Docker_Project_on_Joomla)
+<br/>
 [sql yum repo](https://dev.mysql.com/downloads/repo/yum/)
+<br/>
 [github issues](https://github.com/wodby/docker4drupal/issues/211)
+<br/>
 [vim cmds](https://linuxize.com/post/how-to-save-file-in-vim-quit-editor/)
 
   
 ## Attendance:
 
 #### Session1
-[](Screenshots/1.png)
+[Session 1](Screenshots/1.png)
 
 #### Session2
-[](Screenshots/1.png)
+[Session 2](Screenshots/1.png)
 
 #### Session3
-[](Screenshots/1.png)
+[Session 3](Screenshots/1.png)
 
 #### Session4
-[](Screenshots/1.png)
+[Session 4](Screenshots/1.png)
 
 #### Session5
 [Session 5](Screenshots/1.png)
