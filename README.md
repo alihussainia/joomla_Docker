@@ -81,20 +81,14 @@ Under **IIEC-RISE 1.0** Campaign I learnt about Docker under the guidance of Vim
   
 ## Attendance:
 
-#### Session1
 [Session 1](Screenshots/1.png)
 
-#### Session2
-[Session 2](Screenshots/1.png)
+[Session 2](Screenshots/2.png)
 
-#### Session3
-[Session 3](Screenshots/1.png)
+[Session 3](Screenshots/3.png)
 
-#### Session4
-[Session 4](Screenshots/1.png)
+[Session 4](Screenshots/4.png)
 
-#### Session5
-[Session 5](Screenshots/1.png)
+[Session 5](Screenshots/5.png)
 
-#### Session6
-[Session 6](Screenshots/1.png)
+[Session 6](Screenshots/6.png)
