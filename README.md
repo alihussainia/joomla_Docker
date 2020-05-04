@@ -102,3 +102,7 @@ Under **IIEC-RISE 1.0** Campaign I learnt about Docker under the guidance of Vim
 
 ## Blog
 [Blog Link](https://alihussainia.github.io/)
+
+## Social Media Sharing
+
+[twitter post](Screenshots/social_media.png)
