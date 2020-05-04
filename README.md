@@ -102,4 +102,4 @@ Under **IIEC-RISE 1.0** Campaign I learnt about Docker under the guidance of Vim
 
 ## Blog
 
-<a target=_blank src="https://alihussainia.github.io/"></a>
+<a target=_blank src="https://alihussainia.github.io/">Blog Link</a>
