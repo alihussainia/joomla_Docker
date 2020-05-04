@@ -18,6 +18,7 @@ Under **IIEC-RISE 1.0** Campaign I learnt about Docker under the guidance of Vim
   * To know more about Joomla Image go to this page: https://hub.docker.com/_/joomla
   
 ![Docker Pull Commands](Screenshots/sql_pulling.png)
+
 ## 4. Setting up MySQL:
 * Use `docker run -it -e  MYSQL_ROOT_PASSWORD=(any password you like) -e MYSQL_USER=(any user name) -e MYSQL_PASSWORD=(any password(recommended not to use root password) -e MYSQL_DATABASE=(any database name) --name joomladb mysql:5.6` this code and it will create a user with a database inside Your MySQL Server.
 
@@ -31,6 +32,7 @@ Under **IIEC-RISE 1.0** Campaign I learnt about Docker under the guidance of Vim
   * Before using Docker-Compose you should install the software. For reference go to this website : https://docs.docker.com/compose/install/
   * You can create and edit this file using vim editor. For that use `vim docker-compose.yml`. Remember the file name should always be **docker-compose.yml**.
   * In the below picture you can see the composed file. Let me tell you how it's done.
+  
 ![Docker Compose](Screenshots/yml_file.png)
 
 ### version:
@@ -50,12 +52,17 @@ Under **IIEC-RISE 1.0** Campaign I learnt about Docker under the guidance of Vim
    
 ## 6. Docker-compose up:
   * As per the below mentioned picture use `docker-compose up -d` to complete the setup.
+  
 ![Docker Compose Up](Screenshots/docker_compose_up.png)
+
 ## 7. Joomla Started:
   * Got to your browser and type `localhost:80` and done you will be able to see your Joomla WebApp. Now one small suggestion that you can use directly `localhost` without typing the port cause in http apache server our browser by default use the port 80. But if you want to use any other port then you have to mention it in your docker-compose file.
+  
 ![Joomla Web Page](Screenshots/joomla_webpage.png)
+
 ## 8. Docker-compose start stop and down:
    * After using docker compose up now in one click you can stop your whole setup. Just use `docker-compose stop`. Again you want to start the service use `docker compose start` and you can easily stop the containers using `docker compose down` command.
+   
 ![Docker-compose-start-stop](Screenshots/joomla_stop.png)
 
 ## Troubleshooting and Solves:
